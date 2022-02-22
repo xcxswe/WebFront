@@ -19,9 +19,7 @@ for(let i=2; i<10; i++){
 *
 
 */
-for(let i = 0; i<6; i++){
-    console.log();
-    for(let j = 0; j<6; j++){
-        console.log("*");
-    }
+for(let i = 5; i>0; i--){
+   console.log("*".repeat(i));
 }
+
